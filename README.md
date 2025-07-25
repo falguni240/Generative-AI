@@ -50,7 +50,7 @@ Visualize generated outputs (e.g., generated images, sequences).
 
 Understand data distributions and training dynamics.
 
-**📌 GAN**:
+####📌 GAN:
 In generative AI, GAN stands for Generative Adversarial Network, a powerful type of deep learning model introduced by Ian Goodfellow in 2014. GANs are widely used to generate new, realistic data—like images, audio, or text—by learning patterns from training data.
 
 🔧 How GANs Work
@@ -77,7 +77,7 @@ The discriminator gets better at spotting fakes.
 Training continues until the generator's outputs are so realistic that the discriminator can't reliably tell the difference anymore
 
 
-✅ Epoch:
+#####✅ Epoch:
 – "One full learning cycle"
 An epoch is when the model sees every example in the training data once.
 It's like giving the model one full round of practice on all the data to help it learn.
@@ -100,3 +100,17 @@ Batch = a small study group
 Batch size = number of students in the group
 
 Epoch = once all students in the school have had a lesson
+
+#####🔷 What is VAE?
+A VAE is a special type of autoencoder that not only learns to compress and reconstruct data, but also can create new similar data (like generating new images) that's similar to what it learned.
+
+🧠 Key Ideas:
+Autoencoder learns:
+
+How to reduce the size of data (encoding),
+
+And how to rebuild the original from it (decoding).
+
+
+
+
