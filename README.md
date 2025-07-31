@@ -111,6 +111,41 @@ How to reduce the size of data (encoding),
 
 And how to rebuild the original from it (decoding).
 
+##🤖 What is LSTM?
+
+LSTM (Long Short-Term Memory) is a type of neural network that is good at working with sequences — like sentences, music, or time-based data.
+
+It can remember things for a long time, which makes it better than older models (like regular RNNs(recurrent neural network )
+Generative AI means creating something new — like text, music, images, or speech. LSTM can help with this by generating sequences one step at a time.
+
+🔁 How LSTM Works in Generative AI
+Let’s use a text generation example to explain how LSTM helps AI generate content.
+
+Step 1: Training the LSTM
+Imagine we give the LSTM a big text, like all of Shakespeare’s plays.
+
+We break the text into sequences. For example:
+
+text: To be or not to
+We want the LSTM to learn what comes next:
+
+text: be
+So we train it to predict the next word (or next character).
+
+It keeps generating text one word at a time, based on what it learned during training.
+
+This process is called auto-regression: it feeds its own output back into itself to generate the next word.
+
+🔍 Inside the LSTM (in simple terms)
+LSTM has cells and gates that control what it remembers and what it forgets.
+
+There are 3 main gates:
+Input Gate:	Decides what new information to add
+Forget Gate:	Decides what to forget
+Output Gate:	Decides what to send to the next step
+
+This system helps it remember important things (like a topic in a paragraph) and forget unimportant things (like punctuation).
+
 
 
 
