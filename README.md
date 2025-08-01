@@ -146,6 +146,23 @@ Output Gate:	Decides what to send to the next step
 
 This system helps it remember important things (like a topic in a paragraph) and forget unimportant things (like punctuation).
 
+####### Transformer
+- A Transformer is a type of AI model used to generate new content, especially text.
+- It looks at all the words in a sentence at once to understand the meaning.
+- This helps the AI write things like stories, answers, or conversations that make sense.
+- Popular models like GPT use transformers to create text.
+
+How does it work?
+- Instead of reading words one by one, transformers look at all words at once to understand how they relate to each other.
+- It uses something called attention to decide which words are most important in a sentence.
+
+- Transformers are great at this because they learn from lots of text and can predict what words come next to make sentences that make sense.
+- Models like GPT (like me!) use transformers to write text, answer questions, and chat.
+- They are fast to train because they look at many words at the same time.
+
+####### GPT
+- GPT stands for Generative Pre-trained Transformer, which is a type of large language model (LLM) developed by OpenAI. It’s a key player in generative AI, which means AI systems that can create new content — like text, images, code, music, and more.
+- GPT models generate human-like text by predicting the next word in a sequence.
 
 
 
